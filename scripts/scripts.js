@@ -13,7 +13,7 @@ function mail(){
     let params = {
         first_name: document.getElementById("myFName").value,
         last_name: document.getElementById("myLName").value,
-        category: document.getElementById("catagory").value,
+        category: document.getElementById("category").value,
         answer: document.getElementById("giftInfo").value,
         answer2: document.getElementById("answerN").value,
         message: document.getElementById("message").value,
