@@ -98,7 +98,8 @@ main {
     margin-left: 60px;
     margin-right: 60px;
     background-color: #f99abe;
-    overflow: auto;
+    overflow: scroll;
+    flex: 1;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 15px;
 }
