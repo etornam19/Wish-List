@@ -95,8 +95,8 @@ aside#pic {
 main {
     margin-top: 4%;
     padding-top: 2%;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 60px;
+    margin-right: 60px;
     background-color: #f99abe;
     overflow: auto;
     font-family: 'Times New Roman', Times, serif;
@@ -161,8 +161,11 @@ label {
 /* end of main for form page only*/
 
 /* images/item styles*/
-#one, #two, #three {
-    margin: 0 2%;
+#one, #two, #three #four {
+    margin: 2%;
+}
+#five, #six, #seven #eight {
+    margin: 2%;
 }
 .image{
     float: left;
