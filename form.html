@@ -24,7 +24,7 @@
         </div>
 
         <main id="center">
-            <form class="form-grid"> <!-- Start Form -->
+            <form class="form-grid"> <!-- Start of Form -->
 				<fieldset>
 					<legend> Let me know!</legend>
 					
@@ -35,16 +35,29 @@
 					<input type="text"id="myLName"name="myLName"required="required">
 
 					<label for="catagory">What catagory was the gift you bought? : </label>
-					<input type="tel"id="phone" name="phone">
+					<select id="catagory"name="catagory">
+                        <option value=" "> </option>
+                        <option value="clothes"> Clothes</option>
+                        <option value="clothes"> Shoes</option>
+                        <option value="clothes"> Perfume</option>
+                        <option value="clothes"> Jewlery</option>
+                        <option value="clothes"> Random Item</option>
+                    </select>
 
+                    <!-- radio buttons -->
 					<label for="gift">Do you want to specify the gift? &#127770; : </label>
-					<input type="radio"id="answer"value="Yes">
-                    <input type="radio"id="answer"value="No">
+                    <input type="radio"id="yes"name="answer"value="Yes!"> Yes
+                    
+                    <input type="radio" id="no" name="answer" value="No!"> No
+
+                    <!-- Section for optional -->
+                    <label for="message">Optional Message </label>
+					<input type="text"id="message"name="message"> 
 					
 				</fieldset>
 
                 <input type="submit"value="submit"class="button">Submit</button>
-            </form>
+            </form><!-- End of Form -->
         </main>
 
 
