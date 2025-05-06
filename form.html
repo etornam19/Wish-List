@@ -2,8 +2,18 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Form page</title>
         <link rel="stylesheet" href="css/styles.css">
+        <script src="scripts/scripts.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init({
+                    publicKey: "UrSiU2-4nn8XJBjaC",
+                });
+            })();
+        </script>
     </head>
 
     <body>
@@ -46,9 +56,9 @@
 
                     <!-- radio buttons -->
 					<label for="gift">Do you want to specify the gift? &#127770; : </label>
-                    <input type="radio"id="yes"name="answer"value="Yes!"> Yes
+                    <input type="radio"id="answer"name="answer"value="Yes!"> Yes
                     
-                    <input type="radio" id="no" name="answer" value="No!"> No
+                    <input type="radio" id="answer" name="answer" value="No!"> No
 
                     <!-- Section for optional -->
                     <label for="message">Optional Message </label>
