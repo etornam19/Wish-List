@@ -111,11 +111,12 @@ label {
     display: block;
     
 }
-#submit { 
+#button { 
     display: block;
     padding: 3%;
-    background-color: #b7b7e1;
+    background-color: #d9eeea;
     font-size: 1em;
+    border: 2px;
    
 }
 
