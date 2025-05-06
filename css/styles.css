@@ -168,6 +168,11 @@ label {
     border: 4px;
     color: #f99abe;
 }
+
+#giftInfo{
+    display: none;
+}
+
 .round{
     border-radius: 10px;
 }

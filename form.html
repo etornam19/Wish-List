@@ -34,7 +34,7 @@
         </div>
 
         <main id="center">
-            <form class="form-grid" action="mailto:babyecakes17@gmail.com" method="POST" enctype="text/plain"> <!-- Start of Form -->
+            <form class="form-grid" onsubmit="mail();" action="mailto:babyecakes17@gmail.com" method="POST" enctype="text/plain"> <!-- Start of Form -->
 				<fieldset>
 					<legend> Let me know!</legend>
 					
@@ -56,9 +56,10 @@
 
                     <!-- radio buttons -->
 					<label for="gift">Do you want to specify the gift? &#127770; : </label>
-                    <input type="radio"id="answer"name="answer"value="Yes!"> Yes
-                    
-                    <input type="radio" id="answer" name="answer" value="No!"> No
+                    <input type="radio"id="answeY"name="answerY"value="Yes!"> Yes
+                    <input type="text"id="giftInfo"name="gift">
+
+                    <input type="radio" id="answerN" name="answer" value="No!"> No
 
                     <!-- Section for optional -->
                     <label for="message">Optional Message </label>
