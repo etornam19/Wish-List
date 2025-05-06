@@ -2,9 +2,8 @@
 function displayText(){
     if(document.getElementById('answerY').checked){
        document.getElementById('giftInfo').style.display = "block";
-       }
-    else {document.getElementById('giftInfo').style.display ="none";}
-  }
+    }
+}
 
 
 function mail(){
