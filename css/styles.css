@@ -103,6 +103,16 @@ main {
     width: 33.33%;
     padding: 5px;
 }
+.buy-button{
+    display: inline-flex;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 1.25em;
+
+}
 fieldset{
     margin-bottom: 2%;
     border: 3px solid #f99abe;
