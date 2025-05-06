@@ -13,7 +13,9 @@ function mail(){
         first_name: document.getElementById("myFName").value,
         last_name: document.getElementById("myLName").value,
         catagory: document.getElementById("catagory").value,
-        answer: document.getElementById("answer").value,
+        answer: document.getElementById("answerY").value,
+        info: document.getElementById("giftInfo").value,
+        answer2: document.getElementById("answerN").value,
         message: document.getElementById("message").value,
 
     };
