@@ -158,16 +158,16 @@ label {
     margin-bottom: 40px;
 }
 .image{
-    flex: 1 1 260px;
-    margin: 5px;
-    float: left;
+    flex: 1 1 200px;
+    margin: 10px;
+   
     padding: 10px;
     border-radius: 10px;
 }
 .images{
     flex: 1 1 260px;
     margin: 5px;
-    float: left;
+    
     padding: 10px;
     border-radius: 10px;
 }
@@ -248,5 +248,24 @@ footer  {
     main {
         margin-left: 10px;
         margin-right: 10px;
+    }
+}
+/* Desktop view (1024px and up) */
+@media screen and (min-width: 1024px) {
+    main {
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-top: 2%;
+    }
+
+    #first, #second {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .image, .images {
+        flex: 1 1 22%;
+        max-width: 260px;
     }
 }
