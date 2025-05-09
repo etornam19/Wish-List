@@ -163,16 +163,25 @@ label {
 
 /* images/item styles*/
 #first, #second{
-    display: inline;
-    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
 }
 .image{
+    flex: 1 1 260px;
+    margin: 10px;
     float: left;
     padding: 10px;
+    border-radius: 10px;
 }
 .images{
+    flex: 1 1 260px;
+    margin: 10px;
     float: left;
     padding: 10px;
+    border-radius: 10px;
 }
 .products{
     width: 33.33%;
