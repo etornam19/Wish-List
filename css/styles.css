@@ -159,14 +159,14 @@ label {
 }
 .image{
     flex: 1 1 260px;
-    margin: 10px;
+    margin: 5px;
     float: left;
     padding: 10px;
     border-radius: 10px;
 }
 .images{
     flex: 1 1 260px;
-    margin: 10px;
+    margin: 5px;
     float: left;
     padding: 10px;
     border-radius: 10px;
