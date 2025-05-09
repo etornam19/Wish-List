@@ -1,7 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.984);
+    background-color: #9fdddc;
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -85,7 +85,7 @@ main {
     padding-top: 2%;
     margin-left: 60px;
     margin-right: 60px;
-    background-color: #f99abe;
+    background-color: #9fd79a;
     overflow: scroll;
     flex: 1;
     font-family: 'Times New Roman', Times, serif;
@@ -158,16 +158,16 @@ label {
     margin-bottom: 40px;
 }
 .image{
-    flex: 1 1 200px;
+    flex: 1 1 260px;
     margin: 10px;
-   
+    max-width: 260px;
     padding: 10px;
     border-radius: 10px;
 }
 .images{
     flex: 1 1 260px;
     margin: 5px;
-    
+    max-width: 260px;
     padding: 10px;
     border-radius: 10px;
 }
