@@ -162,11 +162,9 @@ label {
 /* end of main for form page only*/
 
 /* images/item styles*/
-#one, #two, #three #four {
-    margin: 2%;
-}
-#five, #six, #seven #eight {
-    margin: 2%;
+#first, #second{
+    display: inline;
+    list-style-type: none;
 }
 .image{
     float: left;
